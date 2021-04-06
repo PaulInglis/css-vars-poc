@@ -1,0 +1,70 @@
+/*
+$brand-primary: #76bfbe !default;
+$brand-secondary: #76bfbe !default;
+$brand-success: #3fad46 !default;
+$brand-info: #5bc0de !default;
+$brand-warning: #f0ad4e !default;
+$brand-danger
+*/
+
+.palette {
+  & > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: normal;
+
+    width: 250px;
+    padding: 5px;
+
+    & > span {
+      display: block;
+      flex-grow: 0;
+      flex-shrink: 1;
+      flex-basis: auto;
+      align-self: auto;
+      order: 0;
+
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+
+.controls {
+    button {
+        margin: 0 5px;
+    }
+}
+
+.primary-box {
+  span {
+    background-color: var(--brand-primary);
+  }
+}
+
+.secondary-box {
+  span {
+    background-color: var(--brand-secondary);
+  }
+}
+
+.alt1-box {
+  span {
+    background-color: var(--alternative1);
+  }
+}
+
+.alt2-box {
+  span {
+    background-color: var(--alternative2);
+  }
+}
+
+.alt3-box {
+  span {
+    background-color: var(--alternative3);
+  }
+}
