@@ -1,11 +1,9 @@
 import React from 'react';
-// import Color from 'color';
 import { Color } from './color';
 
-// import './App.css';
 import './App.scss';
 
-function App() {
+const App: React.FC = () => {
 
   const applyTheme = (primary: Color, secondary: Color, alt1: Color, alt2: Color, alt3: Color) => {
     const root = document.documentElement.style;
